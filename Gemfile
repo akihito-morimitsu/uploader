@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 gem 'carrierwave'
 gem 'fog';
-
+gem 'pg', '~> 0.20'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use SCSS for stylesheets
@@ -46,6 +46,6 @@ group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   
-  gem 'pg', '~> 0.20'
+  
 end
 
